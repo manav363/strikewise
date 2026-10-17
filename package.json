@@ -1,7 +1,14 @@
 {
   "name": "strikewise",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Parse and build NSE F&O contract symbols like NIFTY26OCT24500CE, and find the nearest strike.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manav363/strikewise.git"
@@ -9,15 +16,6 @@
   "homepage": "https://github.com/manav363/strikewise#readme",
   "bugs": {
     "url": "https://github.com/manav363/strikewise/issues"
-  },
-  "type": "module",
-  "main": "./src/index.js",
-  "exports": "./src/index.js",
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "test": "node --test \"test/*.test.js\""
   },
   "keywords": [
     "nse",
